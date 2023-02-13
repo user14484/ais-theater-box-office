@@ -181,6 +181,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Debug\data.sqlite" />
+    <None Include="bin\Debug\АИС Театральная касса.application" />
+    <None Include="bin\Debug\АИС Театральная касса.exe.config" />
+    <None Include="bin\Debug\АИС Театральная касса.exe.manifest" />
+    <None Include="bin\Release\data.sqlite" />
+    <None Include="bin\Release\АИС Театральная касса.application" />
+    <None Include="bin\Release\АИС Театральная касса.exe.config" />
+    <None Include="bin\Release\АИС Театральная касса.exe.manifest" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -197,6 +205,36 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\app.publish\АИС Театральная касса.exe" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\ReaLTaiizor.dll" />
+    <Content Include="bin\Debug\ReaLTaiizor.xml" />
+    <Content Include="bin\Debug\System.Data.SQLite.dll" />
+    <Content Include="bin\Debug\System.Data.SQLite.EF6.dll" />
+    <Content Include="bin\Debug\System.Data.SQLite.Linq.dll" />
+    <Content Include="bin\Debug\System.Data.SQLite.xml" />
+    <Content Include="bin\Debug\x64\SQLite.Interop.dll" />
+    <Content Include="bin\Debug\x86\SQLite.Interop.dll" />
+    <Content Include="bin\Debug\АИС Театральная касса.exe" />
+    <Content Include="bin\Debug\АИС Театральная касса.pdb" />
+    <Content Include="bin\Release\app.publish\АИС Театральная касса.exe" />
+    <Content Include="bin\Release\EntityFramework.dll" />
+    <Content Include="bin\Release\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Release\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Release\EntityFramework.xml" />
+    <Content Include="bin\Release\ReaLTaiizor.dll" />
+    <Content Include="bin\Release\ReaLTaiizor.xml" />
+    <Content Include="bin\Release\System.Data.SQLite.dll" />
+    <Content Include="bin\Release\System.Data.SQLite.EF6.dll" />
+    <Content Include="bin\Release\System.Data.SQLite.Linq.dll" />
+    <Content Include="bin\Release\System.Data.SQLite.xml" />
+    <Content Include="bin\Release\x64\SQLite.Interop.dll" />
+    <Content Include="bin\Release\x86\SQLite.Interop.dll" />
+    <Content Include="bin\Release\АИС Театральная касса.exe" />
+    <Content Include="bin\Release\АИС Театральная касса.pdb" />
     <Content Include="icon.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +248,10 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\x64\Debug\" />
+    <Folder Include="bin\x64\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
