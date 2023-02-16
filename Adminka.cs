@@ -134,7 +134,7 @@ namespace АИС_Театральная_касса
             aloneComboBox2.ValueMember = "Key";
             aloneComboBox2.SelectedValue = Convert.ToInt32(tickets[idTicketSelected]["id_session"]);
 
-            aloneComboBox3.DataSource = sessions.ToList();
+            aloneComboBox3.DataSource = performances.ToList();
 
             aloneComboBox3.DisplayMember = "Value";
             aloneComboBox3.ValueMember = "Key";

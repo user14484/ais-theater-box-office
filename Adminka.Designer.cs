@@ -32,6 +32,8 @@ namespace АИС_Театральная_касса
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Adminka));
             this.foreverTabPage1 = new ReaLTaiizor.Controls.ForeverTabPage();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.crownLabel5 = new ReaLTaiizor.Controls.CrownLabel();
             this.lostCancelButton1 = new ReaLTaiizor.Controls.LostCancelButton();
             this.lostAcceptButton1 = new ReaLTaiizor.Controls.LostAcceptButton();
             this.aloneComboBox5 = new ReaLTaiizor.Controls.AloneComboBox();
@@ -59,8 +61,6 @@ namespace АИС_Театральная_касса
             this.lostAcceptButton5 = new ReaLTaiizor.Controls.LostAcceptButton();
             this.lostButton4 = new ReaLTaiizor.Controls.LostButton();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.crownLabel5 = new ReaLTaiizor.Controls.CrownLabel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.foreverTabPage1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -116,6 +116,24 @@ namespace АИС_Театральная_касса
             this.tabPage1.Size = new System.Drawing.Size(714, 332);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Билеты";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(258, 191);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(293, 25);
+            this.textBox1.TabIndex = 12;
+            // 
+            // crownLabel5
+            // 
+            this.crownLabel5.AutoSize = true;
+            this.crownLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
+            this.crownLabel5.Location = new System.Drawing.Point(139, 191);
+            this.crownLabel5.Name = "crownLabel5";
+            this.crownLabel5.Size = new System.Drawing.Size(113, 19);
+            this.crownLabel5.TabIndex = 11;
+            this.crownLabel5.Text = "Идентификатор:";
             // 
             // lostCancelButton1
             // 
@@ -468,24 +486,6 @@ namespace АИС_Театральная_касса
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.Size = new System.Drawing.Size(706, 228);
             this.dataGridView4.TabIndex = 3;
-            // 
-            // crownLabel5
-            // 
-            this.crownLabel5.AutoSize = true;
-            this.crownLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
-            this.crownLabel5.Location = new System.Drawing.Point(139, 191);
-            this.crownLabel5.Name = "crownLabel5";
-            this.crownLabel5.Size = new System.Drawing.Size(113, 19);
-            this.crownLabel5.TabIndex = 11;
-            this.crownLabel5.Text = "Идентификатор:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(258, 191);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(293, 25);
-            this.textBox1.TabIndex = 12;
             // 
             // Adminka
             // 
