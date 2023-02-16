@@ -6,7 +6,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{78B1225A-F80F-411B-97F0-56E643C8CF16}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>АИС_Театральная_касса</RootNamespace>
     <AssemblyName>АИС Театральная касса</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>

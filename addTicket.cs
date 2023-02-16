@@ -118,9 +118,9 @@ namespace АИС_Театральная_касса
                 if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
                 {
                     printDocument1.Print();
-                    DB.Quary(quary);
-                    DB.success("Билет успешно добавлен");
                 }
+                DB.Quary(quary);
+                DB.success("Билет успешно добавлен");
             }
             catch (Exception ex)
             {
