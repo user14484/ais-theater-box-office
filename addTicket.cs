@@ -86,10 +86,11 @@ namespace АИС_Театральная_касса
                 int id_session, id_performance, id_place, status;
                 string identifier;
 
-                id_session = (int)materialComboBox1.SelectedValue;
-                id_performance = (int)materialComboBox1.SelectedValue;
-                id_place = (int)materialComboBox1.SelectedValue;
-                status = (int)materialComboBox1.SelectedValue;
+
+                id_session = Convert.ToInt32(materialComboBox1.SelectedValue);
+                id_performance = Convert.ToInt32(materialComboBox2.SelectedValue);
+                id_place = ((KeyValuePair<int, string>)materialComboBox3.SelectedValue).Key;
+                status = Convert.ToInt32(materialComboBox4.SelectedValue);
                 identifier = Guid.NewGuid().ToString("N");
 
                 string quary = string.Format(
@@ -120,11 +121,12 @@ namespace АИС_Театральная_касса
                     DB.Quary(quary);
                     DB.success("Билет успешно добавлен");
                 }
-        } catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 DB.error(ex.Message);
             }
-}
+        }
 
         private void addTicket_FormClosing(object sender, FormClosingEventArgs e)
         {
